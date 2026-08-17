@@ -1,0 +1,16 @@
+{
+    "Authentication": {
+        "BaseURL": "https://www.amazon.com/ap/signin",
+        "email": "YOUR_AMAZON_EMAIL",
+        "password": "YOUR_AMAZON_PASSWORD"
+    },
+    "shippingAddress": {
+        "Country": "IND",
+        "Name": "YOUR_NAME",
+        "StreetAddress": "YOUR_ADDRESS",
+        "City": "YOUR_CITY",
+        "State": "YOUR_STATE",
+        "ZIPCode": "YOUR_ZIP",
+        "PhoneNumber": "YOUR_PHONE_NUMBER"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "amz-project",
+  "version": "1.0.0",
+  "description": "Playwright end-to-end Amazon shopping validation suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "amazon",
+    "e2e",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "dotenv": "^16.3.1"
+  }
+}
